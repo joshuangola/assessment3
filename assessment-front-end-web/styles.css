@@ -5,14 +5,19 @@ body {
   max-width: 500px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 nav {
 	border-bottom: 2px solid orange;
+  justify-content: center;
 }
 
 ol {
 	padding-left: 0;
+  justify-content: center;
 }
 
 .crumb {
@@ -38,7 +43,7 @@ img {
 }
 
 .favorite-btn {
-    background-color: yellow;
+    background-color: rgb(88, 61, 24);
     color: black;
     font-size: 1.5em;
     padding: 1em;

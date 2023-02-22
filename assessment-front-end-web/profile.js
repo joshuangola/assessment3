@@ -12,3 +12,5 @@ const ritualBtn = document.querySelector('#ritual');
 ritualBtn.addEventListener('click', function() {
     alert("My favorite ritual is a Red Bull before spending a day on the mountain.");
 });
+
+// 
